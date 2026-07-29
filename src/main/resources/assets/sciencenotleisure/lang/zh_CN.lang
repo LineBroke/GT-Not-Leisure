@@ -3485,6 +3485,14 @@ Tooltip_IndustrialArcaneAssembler_01=固定并行为2147483647
 Tooltip_IndustrialArcaneAssembler_02=需要在控制器放入水晶缠绕宇宙中子态素法杖来成型！ 
 Tooltip_EnergeticIndustrialArcaneAssembler_Casing=任意压力抑制机械方块
 
+NameLargePetalApothecary=大型花药台
+gtnl.recipe.PetalApothecaryRecipes=花药台
+LargePetalApothecaryRecipeType=花药台
+Tooltip_LargePetalApothecary_00=自动执行所有已注册的植物魔法花药台配方
+Tooltip_LargePetalApothecary_01=每次处理消耗1个任意种子和1000L水
+Tooltip_LargePetalApothecary_02=不消耗EU或魔力，最多同时处理4份配方
+Tooltip_LargePetalApothecary_Casing=活石
+
 NameLibraryOfRuina=§e废墟图书馆
 gtnl.recipe.TheTwilightForestRecipes=永夜暮色
 LibraryOfRuinaRecipeType=永夜暮色

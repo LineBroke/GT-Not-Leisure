@@ -126,6 +126,16 @@ public class GTNLRecipeMaps {
         .neiHandlerInfo(builder -> builder.setDisplayStack(GTNLItemList.TeleportationArrayToAlfheim.get(1)))
         .build();
 
+    public static final RecipeMap<RecipeMapBackend> PetalApothecaryRecipes = RecipeMapBuilder
+        .of("gtnl.recipe.PetalApothecaryRecipes", RecipeMapBackend::new)
+        .maxIO(17, 1, 1, 0)
+        .progressBar(GTUITextures.PROGRESSBAR_ARROW_MULTIPLE)
+        .frontend(GeneralFrontend::new)
+        .neiHandlerInfo(
+            builder -> builder.setDisplayStack(GTNLItemList.LargePetalApothecary.get(1))
+                .setMaxRecipesPerPage(1))
+        .build();
+
     public static final RecipeMap<RecipeMapBackend> NatureSpiritArrayRecipes = RecipeMapBuilder
         .of("gtnl.recipe.NatureSpiritArrayRecipes")
         .maxIO(1, 0, 0, 1)

@@ -45,7 +45,11 @@ import com.science.gtnl.utils.text.AnimatedTooltipHandler;
 
 import bartworks.common.loaders.ItemRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import gregtech.api.enums.Textures;
+import gregtech.api.render.TextureFactory;
 import gregtech.api.util.GTRecipeBuilder;
+import gregtech.api.util.GTUtility;
+import vazkii.botania.common.block.ModBlocks;
 
 public class BlockLoader {
 
@@ -540,6 +544,9 @@ public class BlockLoader {
                 metaCasing02,
                 new String[] { StatCollector.translateToLocal("Tooltip_QuantumComputerSingularityCore_00") }));
         GTNLItemList.CompressedFurnaceCasing.set(MetaItemBlockCasing.initMetaBlockCasing(20, metaCasing02));
+        Textures.BlockIcons.setCasingTextureForId(
+            GTUtility.getTextureId((byte) 116, (byte) 53),
+            TextureFactory.of(ModBlocks.livingrock, 0));
     }
 
     public static void registry() {

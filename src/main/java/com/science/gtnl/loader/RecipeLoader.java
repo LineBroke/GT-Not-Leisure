@@ -94,6 +94,7 @@ import com.science.gtnl.common.recipe.gtnl.MolecularTransformerRecipes;
 import com.science.gtnl.common.recipe.gtnl.NanitesIntegratedProcessingRecipes;
 import com.science.gtnl.common.recipe.gtnl.NaquadahReactorRecipes;
 import com.science.gtnl.common.recipe.gtnl.NatureSpiritArrayRecipes;
+import com.science.gtnl.common.recipe.gtnl.PetalApothecaryRecipes;
 import com.science.gtnl.common.recipe.gtnl.PetrochemicalPlantRecipes;
 import com.science.gtnl.common.recipe.gtnl.PlatinumBasedTreatmentRecipes;
 import com.science.gtnl.common.recipe.gtnl.PortalToAlfheimRecipes;
@@ -191,9 +192,9 @@ public class RecipeLoader {
             new SteamFusionReactorRecipes(), new SteamExtractinatorRecipes(), new RockBreakerRecipes(),
             new PrimitiveBrickKilnRecipes(), new TargetChamberRecipes(), new ElectrocellGeneratorRecipes(),
             new FluidSolidifierRecipes(), new FormingPressRecipes(), new HammerRecipes(), new CyclotronRecipes(),
-            new RuneAltarRecipes(), new IndustrialRockCrusherRecipes(), new PrecisionLaserEngraver(),
-            new NanitesIntegratedProcessingRecipes(), new NanoForgeRecipes(), new SteamWeatherModuleRecipes(),
-            new ElectricNeutronActivatorRecipes(), new ReactorProcessingUnitRecipes(),
+            new RuneAltarRecipes(), new PetalApothecaryRecipes(), new IndustrialRockCrusherRecipes(),
+            new PrecisionLaserEngraver(), new NanitesIntegratedProcessingRecipes(), new NanoForgeRecipes(),
+            new SteamWeatherModuleRecipes(), new ElectricNeutronActivatorRecipes(), new ReactorProcessingUnitRecipes(),
             new NuclearSaltProcessingPlantRecipes(), new MaceratorRecipes(), new QuantumForceTransformerRecipes(),
             new MicroorganismMasterRecipes(), new SolarMuonCatalystRecipes(), new CircuitAssemblerRecipes(),
             new CircuitAssemblyLineRecipes(), new WoodDistillationRecipes() };

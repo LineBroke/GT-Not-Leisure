@@ -22,7 +22,6 @@ import com.science.gtnl.common.machine.basicMachine.Replicator;
 import com.science.gtnl.common.machine.basicMachine.SteamAssemblerBronze;
 import com.science.gtnl.common.machine.basicMachine.SteamAssemblerSteel;
 import com.science.gtnl.common.machine.basicMachine.SteamTurbine;
-import com.science.gtnl.common.machine.basicMachine.StellarIrisController;
 import com.science.gtnl.common.machine.cover.FluidCover;
 import com.science.gtnl.common.machine.cover.VoidCover;
 import com.science.gtnl.common.machine.cover.WirelessMultiEnergyCover;
@@ -93,6 +92,7 @@ import com.science.gtnl.common.machine.multiblock.LargeCircuitAssembler;
 import com.science.gtnl.common.machine.multiblock.LargeEssentiaGenerator;
 import com.science.gtnl.common.machine.multiblock.LargeGasCollector;
 import com.science.gtnl.common.machine.multiblock.LargeIncubator;
+import com.science.gtnl.common.machine.multiblock.LargePetalApothecary;
 import com.science.gtnl.common.machine.multiblock.LibraryOfRuina;
 import com.science.gtnl.common.machine.multiblock.MassFabricator;
 import com.science.gtnl.common.machine.multiblock.MatterFabricator;
@@ -379,6 +379,14 @@ public class MachineLoader {
                 "TeleportationArrayToAlfheim",
                 StatCollector.translateToLocal("NameTeleportationArrayToAlfheim")));
         AnimatedTooltipHandler.addItemTooltip(GTNLItemList.TeleportationArrayToAlfheim.get(1), AnimatedText.SNL_NLXCJH);
+
+        GTNLItemList.LargePetalApothecary.set(
+            new LargePetalApothecary(
+                GTNLMachineID.LARGE_PETAL_APOTHECARY.ID,
+                "LargePetalApothecary",
+                StatCollector.translateToLocal("NameLargePetalApothecary")));
+        AnimatedTooltipHandler
+            .addItemTooltip(GTNLItemList.LargePetalApothecary.get(1), AnimatedText.SCIENCE_NOT_LEISURE);
 
         GTNLItemList.LapotronChip.set(
             new LapotronChip(
@@ -2538,15 +2546,6 @@ public class MachineLoader {
                 StatCollector.translateToLocal("EnergyMonitor"),
                 1));
         AnimatedTooltipHandler.addItemTooltip(GTNLItemList.EnergyMonitor.get(1), AnimatedText.SCIENCE_NOT_LEISURE);
-
-        GTNLItemList.StellarIrisController.set(
-            new StellarIrisController(
-                GTNLMachineID.STELLAR_IRIS_CONTROLLER.ID,
-                "StellarIrisController",
-                StatCollector.translateToLocal("StellarIrisController"),
-                1));
-        AnimatedTooltipHandler
-            .addItemTooltip(GTNLItemList.StellarIrisController.get(1), AnimatedText.SCIENCE_NOT_LEISURE);
 
         GTNLItemList.OredictInputBusME.set(
             new OredictInputBusME(

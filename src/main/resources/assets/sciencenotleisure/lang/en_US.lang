@@ -3484,6 +3484,14 @@ Tooltip_IndustrialArcaneAssembler_00=§d§oCombines technology and magic.
 Tooltip_IndustrialArcaneAssembler_01=Fixed and behaves as 2147483647
 Tooltip_IndustrialArcaneAssembler_02=Requires a Crystal Studded Cosmic Neutronium Wand in the controller to form!
 Tooltip_EnergeticIndustrialArcaneAssembler_Casing=Any Pressure Suppression Machine Block
+    
+NameLargePetalApothecary=Large Petal Apothecary
+gtnl.recipe.PetalApothecaryRecipes=Petal Apothecary
+LargePetalApothecaryRecipeType=Petal Apothecary
+Tooltip_LargePetalApothecary_00=Automatically performs all registered Botania Petal Apothecary recipes
+Tooltip_LargePetalApothecary_01=Each operation consumes 1 Seed and 1000L of Water
+Tooltip_LargePetalApothecary_02=Consumes no EU or Mana and processes up to 4 recipes in parallel
+Tooltip_LargePetalApothecary_Casing=Livingrock
 
 NameLibraryOfRuina=§eLibrary of Ruina
 gtnl.recipe.TheTwilightForestRecipes=Eternal Twilight
