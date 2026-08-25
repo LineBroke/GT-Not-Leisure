@@ -70,6 +70,7 @@ import com.science.gtnl.common.machine.multiblock.AdvancedRareEarthCentrifugal;
 import com.science.gtnl.common.machine.multiblock.AssemblerMatrix;
 import com.science.gtnl.common.machine.multiblock.AtomicEnergyExcitationPlant;
 import com.science.gtnl.common.machine.multiblock.BloodSoulSacrificialArray;
+import com.science.gtnl.common.machine.multiblock.BreedingArray;
 import com.science.gtnl.common.machine.multiblock.BrickedBlastFurnace;
 import com.science.gtnl.common.machine.multiblock.CheatOreProcessingFactory;
 import com.science.gtnl.common.machine.multiblock.ComponentAssembler;
@@ -342,6 +343,13 @@ public class MachineLoader {
                 "EdenGarden",
                 StatCollector.translateToLocal("NameEdenGarden")));
         AnimatedTooltipHandler.addItemTooltip(GTNLItemList.EdenGarden.get(1), AnimatedText.SNL_EDEN_GARDEN);
+
+        GTNLItemList.BreedingArray.set(
+            new BreedingArray(
+                GTNLMachineID.BREEDING_ARRAY.ID,
+                "BreedingArray",
+                StatCollector.translateToLocal("NameBreedingArray")));
+        AnimatedTooltipHandler.addItemTooltip(GTNLItemList.BreedingArray.get(1), AnimatedText.SCIENCE_NOT_LEISURE);
 
         GTNLItemList.LargeSteamCircuitAssembler.set(
             new LargeSteamCircuitAssembler(

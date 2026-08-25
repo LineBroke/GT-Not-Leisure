@@ -579,6 +579,7 @@ public enum GTNLItemList implements IItemContainer {
     LargeSteamCrusher,
     NeutroniumWireCutting,
     EdenGarden,
+    BreedingArray,
     BloodSoulSacrificialArray,
     TeleportationArrayToAlfheim,
     LapotronChip,

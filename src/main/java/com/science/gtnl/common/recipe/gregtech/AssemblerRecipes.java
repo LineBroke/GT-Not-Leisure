@@ -3793,6 +3793,20 @@ public class AssemblerRecipes implements IRecipePool {
             .duration(200)
             .eut(TierEU.RECIPE_LV)
             .addTo(As);
+
+        RecipeBuilder.builder()
+            .itemInputs(
+                GTUtility.getIntegratedCircuit(24),
+                ItemList.Hull_LV.get(1),
+                CropsNHItemList.CropBreeder_LV.get(2),
+                CropsNHItemList.BrickedAgriculturalCasing.get(16),
+                CropsNHItemList.cropSticks.get(32),
+                GTOreDictUnificator.get(OrePrefixes.circuit, Materials.LV, 4))
+            .itemOutputs(GTNLItemList.BreedingArray.get(1))
+            .fluidInputs(FluidRegistry.getFluidStack("liquid_sunshine", 8000))
+            .duration(200)
+            .eut(TierEU.RECIPE_LV)
+            .addTo(As);
     }
 
     public void loadDeleteRecipe() {
